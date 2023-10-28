@@ -24,6 +24,7 @@ In the ```postgrest``` directory, create a ```.env``` file that contains the fol
 PGRST_DB_URI=postgres://authenticator:mysecretpassword@postgres:5432/postgres
 PGRST_DB_SCHEMAS=api
 PGRST_DB_ANON_ROLE=web_anon
+PGRST_JWT_SECRET=asecretkeywithaminlengthofthirtytwo
 ```
 
 The database variables can be changed as desired. However, make sure to update the  PostgreSQL environment variables as well.
